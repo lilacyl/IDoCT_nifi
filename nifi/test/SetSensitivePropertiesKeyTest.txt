@@ -1,0 +1,4 @@
+SetSensitivePropertiesKeyTest
+../../nifi/nifi-commons/nifi-flow-encryptor/src/test/java/org/apache/nifi/flow/encryptor/command/SetSensitivePropertiesKeyTest.java
+testMainNoArguments
+testMainBlankKeyAndAlgorithm

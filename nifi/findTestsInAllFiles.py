@@ -1,3 +1,7 @@
+"""
+Usage: python3 findTestsInAllFiles.py
+Goes through all the files in NIFI COMMONS and find all the files that end with TEST.JAVA. This script will make use of 'findTests.py'
+"""
 import os
 import constants
 
@@ -16,7 +20,13 @@ def find_all_tests_path():
         for item in res:
             # write each path on a new line
             fp.write("%s\n" % item)
-
-
+    
 if __name__ == "__main__":
     find_all_tests_path()
+    test = open(constants.ALL_TESTS_PATH, 'r')
+    Lines = test.readlines()
+    for i, line in enumerate(Lines):
+        # remove line breaks
+        line = line.strip()
+        command = "python3 findTests.py --t "+ line
+        os.system(command)

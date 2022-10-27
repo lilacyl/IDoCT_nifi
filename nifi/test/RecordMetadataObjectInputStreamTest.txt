@@ -1,0 +1,4 @@
+RecordMetadataObjectInputStreamTest
+../../nifi/nifi-commons/nifi-repository-encryption/src/test/java/org/apache/nifi/repository/encryption/metadata/serialization/RecordMetadataObjectInputStreamTest.java
+testGetRecordMetadata
+testGetRecordMetadataCompatibleClass

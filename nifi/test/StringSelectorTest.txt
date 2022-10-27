@@ -1,0 +1,12 @@
+StringSelectorTest
+../../nifi/nifi-commons/nifi-utils/src/test/java/org/apache/nifi/util/StringSelectorTest.java
+testNull
+testEmpty
+testNull_Empty
+testNull_Empty_NonEmpty
+testNonEmpty_Null_NonEmpty
+testNonEmpty_Empty_NonEmpty
+testTwoNonEmpty
+testManyInputsWithNoExpected
+testManyInputsWithExpectedInFirstBatch
+testManyInputsWithExpectedInLaterBatch

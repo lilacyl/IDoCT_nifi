@@ -1,0 +1,10 @@
+SslSocketFactoryTest
+../../nifi/nifi-commons/nifi-security-utils/src/test/java/org/apache/nifi/security/util/SslSocketFactoryTest.java
+testCreateSslContextNullTlsConfiguration
+testCreateSslContextEmptyTlsConfiguration
+testCreateSslContextEmptyKeyPassword
+testCreateSslContextEmptyTrustStorePasswordJks
+testCreateSslContext
+testGetTrustManager
+testGetTrustManagers
+testGetTrustManagersEmptyTlsConfiguration

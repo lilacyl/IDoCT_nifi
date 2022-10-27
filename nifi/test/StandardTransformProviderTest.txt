@@ -1,0 +1,5 @@
+StandardTransformProviderTest
+../../nifi/nifi-commons/nifi-xml-processing/src/test/java/org/apache/nifi/xml/processing/transform/StandardTransformProviderTest.java
+testTransformStandard
+testTransformStandardDocumentTypeDeclaration
+testTransformStandardExternalEntityException

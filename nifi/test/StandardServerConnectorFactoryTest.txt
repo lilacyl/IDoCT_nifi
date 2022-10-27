@@ -1,0 +1,7 @@
+StandardServerConnectorFactoryTest
+../../nifi/nifi-commons/nifi-jetty-configuration/src/test/java/org/apache/nifi/jetty/configuration/connector/StandardServerConnectorFactoryTest.java
+testGetServerConnector
+testGetServerConnectorSecured
+testGetServerConnectorSecuredNeedClientAuthentication
+testGetServerConnectorSecuredHttp2AndHttp1
+testGetServerConnectorSecuredHttp2

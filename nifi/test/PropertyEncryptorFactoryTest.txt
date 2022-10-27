@@ -1,0 +1,5 @@
+PropertyEncryptorFactoryTest
+../../nifi/nifi-commons/nifi-property-encryptor/src/test/java/org/apache/nifi/encrypt/PropertyEncryptorFactoryTest.java
+testGetPropertyEncryptorUnsupportedEncryptionMethod
+testGetPropertyEncryptorPropertiesBlankPassword
+testGetPropertyEncryptorPropertiesKeyedCipherPropertyEncryptor

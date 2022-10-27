@@ -1,0 +1,7 @@
+StandardDocumentProviderTest
+../../nifi/nifi-commons/nifi-xml-processing/src/test/java/org/apache/nifi/xml/processing/parsers/StandardDocumentProviderTest.java
+testNewDocument
+testParseStandard
+testParseDocumentTypeDeclarationException
+testParseExternalEntityException
+testParseNamespaceAwareSchemaConfiguredExternalEntityException

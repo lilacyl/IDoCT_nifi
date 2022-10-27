@@ -1,0 +1,5 @@
+RequestUriBuilderTest
+../../nifi/nifi-commons/nifi-web-utils/src/test/groovy/org/apache/nifi/web/util/RequestUriBuilderTest.java
+testFromHttpServletRequestBuild
+testFromHttpServletRequestPathBuild
+testFromHttpServletRequestProxyHeadersBuild

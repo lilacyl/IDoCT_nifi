@@ -1,0 +1,3 @@
+StandardFileBasedKeyReaderTest
+../../nifi/nifi-commons/nifi-security-kms/src/test/java/org/apache/nifi/security/kms/reader/StandardFileBasedKeyReaderTest.java
+testReadSecretKeys

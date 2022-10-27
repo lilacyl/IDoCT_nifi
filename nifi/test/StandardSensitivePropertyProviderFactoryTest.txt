@@ -1,0 +1,11 @@
+StandardSensitivePropertyProviderFactoryTest
+../../nifi/nifi-commons/nifi-property-protection-factory/src/test/java/org/apache/nifi/properties/StandardSensitivePropertyProviderFactoryTest.java
+testGetPropertyContextNotConfigured
+testGetPropertyContext
+testGetSupportedProviders
+testAzureKeyVaultSecret
+testHashiCorpVaultKeyVaultSupported
+testHashiCorpVaultTransitSupported
+testHashiCorpVaultTransitExceptionWhenMissingProperties
+testAesGcmWithoutKeySizeSupported
+testAesGcm128Supported

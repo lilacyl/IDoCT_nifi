@@ -1,0 +1,10 @@
+StringUtilsTest
+../../nifi/nifi-commons/nifi-properties/src/test/java/org/apache/nifi/util/StringUtilsTest.java
+testIsBlank
+testStartsWith
+testPadRight
+testPadLeft
+testIsEmpty
+testSubstringAfter
+testJoin
+testShouldTitleCaseStrings

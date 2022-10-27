@@ -1,0 +1,6 @@
+FlowEncryptorCommandTest
+../../nifi/nifi-commons/nifi-flow-encryptor/src/test/java/org/apache/nifi/flow/encryptor/command/FlowEncryptorCommandTest.java
+testRunSystemPropertyNotDefined
+testRunPropertiesKeyBlankProperties
+testRunPropertiesKeyLegacyPropertiesWithoutFlowJson
+testRunPropertiesAlgorithmWithPropertiesKeyPopulatedProperties

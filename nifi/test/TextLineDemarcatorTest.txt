@@ -1,0 +1,17 @@
+TextLineDemarcatorTest
+../../nifi/nifi-commons/nifi-utils/src/test/java/org/apache/nifi/stream/io/util/TextLineDemarcatorTest.java
+nullStream
+illegalBufferSize
+emptyStreamNoStartWithFilter
+emptyStreamAndStartWithFilter
+endsWithCRWithBufferLengthEqualStringLengthA
+endsWithCRWithBufferLengthEqualStringLengthB
+singleCR
+singleLF
+validateNiFi_3495
+mixedCRLF
+consecutiveAndMixedCRLF
+startWithNoMatchOnWholeStream
+startWithSomeMatches
+testOnBufferSplitNoTrailingDelimiter
+validateStartsWithLongerThanLastToken

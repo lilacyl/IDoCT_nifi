@@ -1,0 +1,4 @@
+ByteCountingInputStreamTest
+../../nifi/nifi-commons/nifi-utils/src/test/java/org/apache/nifi/stream/io/ByteCountingInputStreamTest.java
+testReset
+testAvailableShouldReturnCorrectCount

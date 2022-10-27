@@ -1,4 +1,5 @@
 PRAM_IDX = 1
+TEST_INFO_FOLDER = "test/"
 TEST_INFO_PATH = "test/NiFiPropertiesTest.txt"
 OUTPUT_PATH = "result/param_map.json"
 

@@ -1,0 +1,5 @@
+StandardProtectionSchemeResolverTest
+../../nifi/nifi-commons/nifi-property-protection-factory/src/test/java/org/apache/nifi/properties/scheme/StandardProtectionSchemeResolverTest.java
+getProtectionSchemeAesGcmFound
+getProtectionSchemeAesGcm256Found
+getProtectionSchemeUnknownNotFound

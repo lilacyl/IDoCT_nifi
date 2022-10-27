@@ -1,0 +1,4 @@
+HashiCorpVaultKeyValueSensitivePropertyProviderTest
+../../nifi/nifi-commons/nifi-property-protection-hashicorp/src/test/java/org/apache/nifi/properties/HashiCorpVaultKeyValueSensitivePropertyProviderTest.java
+testGetIdentifierKeyPropertiesNotFound
+testIsSupportedPropertiesNotFound

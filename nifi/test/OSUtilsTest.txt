@@ -1,0 +1,5 @@
+OSUtilsTest
+../../nifi/nifi-commons/nifi-bootstrap-utils/src/test/java/org/apache/nifi/bootstrap/util/OSUtilsTest.java
+testGetPid
+testParseJavaVersion8
+testParseJavaVersion11

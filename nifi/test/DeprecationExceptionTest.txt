@@ -1,0 +1,3 @@
+DeprecationExceptionTest
+../../nifi/nifi-commons/nifi-deprecation-log/src/test/java/org/apache/nifi/deprecation/log/DeprecationExceptionTest.java
+testGetMessageReferenceClassFound

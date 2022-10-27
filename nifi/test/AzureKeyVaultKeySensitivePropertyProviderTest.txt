@@ -1,0 +1,6 @@
+AzureKeyVaultKeySensitivePropertyProviderTest
+../../nifi/nifi-commons/nifi-property-protection-azure/src/test/java/org/apache/nifi/properties/AzureKeyVaultKeySensitivePropertyProviderTest.java
+testValidateClientNull
+testProtect
+testUnprotect
+testGetIdentifierKey

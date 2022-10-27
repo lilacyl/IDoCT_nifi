@@ -1,0 +1,8 @@
+AwsKmsSensitivePropertyProviderTest
+../../nifi/nifi-commons/nifi-property-protection-aws/src/test/java/org/apache/nifi/properties/AwsKmsSensitivePropertyProviderTest.java
+testValidateClientNull
+testValidateKeyDisabled
+testCleanUp
+testProtect
+testUnprotect
+testGetIdentifierKey

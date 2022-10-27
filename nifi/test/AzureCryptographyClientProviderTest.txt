@@ -1,0 +1,4 @@
+AzureCryptographyClientProviderTest
+../../nifi/nifi-commons/nifi-property-protection-azure/src/test/java/org/apache/nifi/properties/configuration/AzureCryptographyClientProviderTest.java
+testClientPropertiesNull
+testClientPropertiesKeyIdBlank

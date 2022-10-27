@@ -1,0 +1,7 @@
+TlsPlatformTest
+../../nifi/nifi-commons/nifi-security-utils-api/src/test/java/org/apache/nifi/security/util/TlsPlatformTest.java
+testGetSupportedProtocolsFound
+testGetPreferredProtocolsFound
+testGetPreferredProtocolsShouldNotIncludeLegacyProtocols
+testGetLatestProtocolFound
+testGetLatestProtocolMostRecentVersion

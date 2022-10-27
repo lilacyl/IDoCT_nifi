@@ -1,0 +1,8 @@
+SSLSocketChannelTest
+../../nifi/nifi-commons/nifi-security-socket-ssl/src/test/java/org/apache/nifi/remote/io/socket/ssl/SSLSocketChannelTest.java
+testClientConnectFailed
+testClientConnectHandshakeFailed
+testClientConnectWriteReadTls12
+testClientConnectWriteReadTls13
+testClientConnectWriteAvailableReadTls12
+testClientConnectWriteAvailableReadTls13

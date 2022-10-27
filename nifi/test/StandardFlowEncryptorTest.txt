@@ -1,0 +1,6 @@
+StandardFlowEncryptorTest
+../../nifi/nifi-commons/nifi-flow-encryptor/src/test/java/org/apache/nifi/flow/encryptor/StandardFlowEncryptorTest.java
+testProcessEncrypted
+testProcessNoEncrypted
+testProcessJson
+testProcessXml

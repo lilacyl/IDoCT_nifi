@@ -1,0 +1,5 @@
+AesGcmByteArrayRepositoryEncryptorTest
+../../nifi/nifi-commons/nifi-repository-encryption/src/test/java/org/apache/nifi/repository/encryption/AesGcmByteArrayRepositoryEncryptorTest.java
+testEncryptDecryptContentRecord
+testEncryptDecryptProvenanceRecord
+testDecryptEmptyByteArrayFailed

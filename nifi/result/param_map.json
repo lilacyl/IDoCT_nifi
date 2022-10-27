@@ -1,16 +1,16 @@
 {
-  "NiFiPropertiesTest#testProperties": [
+    "NiFiPropertiesTest#testProperties": [
     "nifi.ui.banner.text",
     "nifi.nar.library.directory",
     "nifi.nar.library.directory.alt"
-  ],
-  "NiFiPropertiesTest#testMissingProperties": [
+    ],
+    "NiFiPropertiesTest#testMissingProperties": [
     "nifi.nar.library.directory"
-  ],
-  "NiFiPropertiesTest#testBlankProperties": [
+    ],
+    "NiFiPropertiesTest#testBlankProperties": [
     "nifi.nar.library.directory"
-  ],
-  "NiFiPropertiesTest#testValidateProperties": [
+    ],
+    "NiFiPropertiesTest#testValidateProperties": [
     "nifi.cluster.node.protocol.port",
     "nifi.ui.banner.text",
     "nifi.nar.library.directory",
@@ -30,42 +30,42 @@
     "nifi.security.user.oidc.additional.scopes",
     "nifi.security.user.oidc.additional.scopes",
     "nifi.security.user.oidc.additional.scopes"
-  ],
-  "NiFiPropertiesTest#testAdditionalOidcScopesAreTrimmed": [
+    ],
+    "NiFiPropertiesTest#testAdditionalOidcScopesAreTrimmed": [
     "nifi.security.user.oidc.additional.scopes",
     "nifi.security.user.oidc.additional.scopes",
     "nifi.security.user.oidc.additional.scopes",
     "nifi.security.user.oidc.additional.scopes"
-  ],
-  "NiFiPropertiesTest#testShouldVerifyValidFormatPortValue": [
+    ],
+    "NiFiPropertiesTest#testShouldVerifyValidFormatPortValue": [
     "nifi.cluster.node.protocol.port"
-  ],
-  "NiFiPropertiesTest#testShouldVerifyExceptionThrownWhenInValidFormatPortValue": [
+    ],
+    "NiFiPropertiesTest#testShouldVerifyExceptionThrownWhenInValidFormatPortValue": [
     "nifi.cluster.node.protocol.port"
-  ],
-  "NiFiPropertiesTest#testShouldVerifyValidPortValue": [
+    ],
+    "NiFiPropertiesTest#testShouldVerifyValidPortValue": [
     "nifi.cluster.node.protocol.port"
-  ],
-  "NiFiPropertiesTest#testShouldVerifyExceptionThrownWhenInvalidPortValue": [
+    ],
+    "NiFiPropertiesTest#testShouldVerifyExceptionThrownWhenInvalidPortValue": [
     "nifi.cluster.node.protocol.port"
-  ],
-  "NiFiPropertiesTest#testShouldVerifyExceptionThrownWhenPortValueIsZero": [
+    ],
+    "NiFiPropertiesTest#testShouldVerifyExceptionThrownWhenPortValueIsZero": [
     "nifi.cluster.node.protocol.port"
-  ],
-  "NiFiPropertiesTest#testShouldHaveReasonableMaxContentLengthValues": [
+    ],
+    "NiFiPropertiesTest#testShouldHaveReasonableMaxContentLengthValues": [
     "nifi.web.max.content.size",
     "nifi.web.max.content.size"
-  ],
-  "NiFiPropertiesTest#testIsZooKeeperTlsConfigurationPresent": [
+    ],
+    "NiFiPropertiesTest#testIsZooKeeperTlsConfigurationPresent": [
     "nifi.zookeeper.client.secure"
-  ],
-  "NiFiPropertiesTest#testSomeZooKeeperTlsConfigurationIsMissing": [
+    ],
+    "NiFiPropertiesTest#testSomeZooKeeperTlsConfigurationIsMissing": [
     "nifi.zookeeper.client.secure"
-  ],
-  "NiFiPropertiesTest#testZooKeeperTlsPasswordsBlank": [
+    ],
+    "NiFiPropertiesTest#testZooKeeperTlsPasswordsBlank": [
     "nifi.zookeeper.client.secure"
-  ],
-  "NiFiPropertiesTest#testKeystorePasswordIsMissing": [
+    ],
+    "NiFiPropertiesTest#testKeystorePasswordIsMissing": [
     "nifi.cluster.node.protocol.port",
     "nifi.ui.banner.text",
     "nifi.nar.library.directory",
@@ -85,8 +85,8 @@
     "nifi.security.user.oidc.additional.scopes",
     "nifi.security.user.oidc.additional.scopes",
     "nifi.security.user.oidc.additional.scopes"
-  ],
-  "NiFiPropertiesTest#testTlsConfigurationIsPresentWithEmptyPasswords": [
+    ],
+    "NiFiPropertiesTest#testTlsConfigurationIsPresentWithEmptyPasswords": [
     "nifi.cluster.node.protocol.port",
     "nifi.ui.banner.text",
     "nifi.nar.library.directory",
@@ -106,8 +106,8 @@
     "nifi.security.user.oidc.additional.scopes",
     "nifi.security.user.oidc.additional.scopes",
     "nifi.security.user.oidc.additional.scopes"
-  ],
-  "NiFiPropertiesTest#testTlsConfigurationIsNotPresentWithPropertiesMissing": [
+    ],
+    "NiFiPropertiesTest#testTlsConfigurationIsNotPresentWithPropertiesMissing": [
     "nifi.cluster.node.protocol.port",
     "nifi.ui.banner.text",
     "nifi.nar.library.directory",
@@ -127,8 +127,8 @@
     "nifi.security.user.oidc.additional.scopes",
     "nifi.security.user.oidc.additional.scopes",
     "nifi.security.user.oidc.additional.scopes"
-  ],
-  "NiFiPropertiesTest#testTlsConfigurationIsNotPresentWithNoProperties": [
+    ],
+    "NiFiPropertiesTest#testTlsConfigurationIsNotPresentWithNoProperties": [
     "nifi.cluster.node.protocol.port",
     "nifi.ui.banner.text",
     "nifi.nar.library.directory",
@@ -148,8 +148,8 @@
     "nifi.security.user.oidc.additional.scopes",
     "nifi.security.user.oidc.additional.scopes",
     "nifi.security.user.oidc.additional.scopes"
-  ],
-  "NiFiPropertiesTest#testGetPropertiesWithPrefixWithoutDot": [
+    ],
+    "NiFiPropertiesTest#testGetPropertiesWithPrefixWithoutDot": [
     "nifi.cluster.node.protocol.port",
     "nifi.ui.banner.text",
     "nifi.nar.library.directory",
@@ -169,8 +169,8 @@
     "nifi.security.user.oidc.additional.scopes",
     "nifi.security.user.oidc.additional.scopes",
     "nifi.security.user.oidc.additional.scopes"
-  ],
-  "NiFiPropertiesTest#testGetPropertiesWithPrefixWithDot": [
+    ],
+    "NiFiPropertiesTest#testGetPropertiesWithPrefixWithDot": [
     "nifi.cluster.node.protocol.port",
     "nifi.ui.banner.text",
     "nifi.nar.library.directory",
@@ -190,8 +190,8 @@
     "nifi.security.user.oidc.additional.scopes",
     "nifi.security.user.oidc.additional.scopes",
     "nifi.security.user.oidc.additional.scopes"
-  ],
-  "NiFiPropertiesTest#testGetPropertiesWithPrefixWhenNoResult": [
+    ],
+    "NiFiPropertiesTest#testGetPropertiesWithPrefixWhenNoResult": [
     "nifi.cluster.node.protocol.port",
     "nifi.ui.banner.text",
     "nifi.nar.library.directory",
@@ -211,8 +211,8 @@
     "nifi.security.user.oidc.additional.scopes",
     "nifi.security.user.oidc.additional.scopes",
     "nifi.security.user.oidc.additional.scopes"
-  ],
-  "NiFiPropertiesTest#testGetDirectSubsequentTokensWithoutDot": [
+    ],
+    "NiFiPropertiesTest#testGetDirectSubsequentTokensWithoutDot": [
     "nifi.cluster.node.protocol.port",
     "nifi.ui.banner.text",
     "nifi.nar.library.directory",
@@ -232,8 +232,8 @@
     "nifi.security.user.oidc.additional.scopes",
     "nifi.security.user.oidc.additional.scopes",
     "nifi.security.user.oidc.additional.scopes"
-  ],
-  "NiFiPropertiesTest#testGetDirectSubsequentTokensWithDot": [
+    ],
+    "NiFiPropertiesTest#testGetDirectSubsequentTokensWithDot": [
     "nifi.cluster.node.protocol.port",
     "nifi.ui.banner.text",
     "nifi.nar.library.directory",
@@ -253,8 +253,8 @@
     "nifi.security.user.oidc.additional.scopes",
     "nifi.security.user.oidc.additional.scopes",
     "nifi.security.user.oidc.additional.scopes"
-  ],
-  "NiFiPropertiesTest#testGetDirectSubsequentTokensWithNonExistingToken": [
+    ],
+    "NiFiPropertiesTest#testGetDirectSubsequentTokensWithNonExistingToken": [
     "nifi.cluster.node.protocol.port",
     "nifi.ui.banner.text",
     "nifi.nar.library.directory",
@@ -274,8 +274,8 @@
     "nifi.security.user.oidc.additional.scopes",
     "nifi.security.user.oidc.additional.scopes",
     "nifi.security.user.oidc.additional.scopes"
-  ],
-  "NiFiPropertiesTest#testGetDirectSubsequentTokensWhenMoreTokensAfterward": [
+    ],
+    "NiFiPropertiesTest#testGetDirectSubsequentTokensWhenMoreTokensAfterward": [
     "nifi.cluster.node.protocol.port",
     "nifi.ui.banner.text",
     "nifi.nar.library.directory",
@@ -295,26 +295,6 @@
     "nifi.security.user.oidc.additional.scopes",
     "nifi.security.user.oidc.additional.scopes",
     "nifi.security.user.oidc.additional.scopes"
-  ],
-  "NiFiPropertiesTest#": [
-    "nifi.cluster.node.protocol.port",
-    "nifi.ui.banner.text",
-    "nifi.nar.library.directory",
-    "nifi.nar.library.directory.alt",
-    "nifi.web.max.content.size",
-    "nifi.web.max.content.size",
-    "nifi.zookeeper.client.secure",
-    "nifi.cluster.node.protocol.port",
-    "nifi.nar.library.directory",
-    "nifi.zookeeper.client.secure",
-    "nifi.zookeeper.client.secure",
-    "nifi.cluster.node.protocol.port",
-    "nifi.cluster.node.protocol.port",
-    "nifi.cluster.node.protocol.port",
-    "nifi.nar.library.directory",
-    "nifi.security.user.oidc.additional.scopes",
-    "nifi.security.user.oidc.additional.scopes",
-    "nifi.security.user.oidc.additional.scopes",
-    "nifi.security.user.oidc.additional.scopes"
-  ]
-}
+    ]
+    }
+    

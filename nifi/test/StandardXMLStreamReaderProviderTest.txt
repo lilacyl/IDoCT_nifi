@@ -1,0 +1,5 @@
+StandardXMLStreamReaderProviderTest
+../../nifi/nifi-commons/nifi-xml-processing/src/test/java/org/apache/nifi/xml/processing/stream/StandardXMLStreamReaderProviderTest.java
+testGetStreamReaderStandard
+testGetStreamReaderStandardDocumentTypeDeclaration
+testGetStreamReaderStandardExternalEntityException

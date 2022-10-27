@@ -1,0 +1,4 @@
+StandardSchemaValidatorTest
+../../nifi/nifi-commons/nifi-xml-processing/src/test/java/org/apache/nifi/xml/processing/validation/StandardSchemaValidatorTest.java
+testValidate
+testValidateExternalEntityException

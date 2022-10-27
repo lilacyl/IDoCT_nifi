@@ -1,0 +1,9 @@
+StandardHttpUriBuilderTest
+../../nifi/nifi-commons/nifi-web-client/src/test/java/org/apache/nifi/web/client/StandardHttpUriBuilderTest.java
+testBuildIllegalStateException
+testBuildSchemeHost
+testBuildSchemeHostPort
+testBuildSchemeHostPortEncodedPath
+testBuildSchemeHostPathSegment
+testBuildSchemeHostPathSegmentQueryParameter
+testBuildSchemeHostPathSegmentQueryParameterNullValue

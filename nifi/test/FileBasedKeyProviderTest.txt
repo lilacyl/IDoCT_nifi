@@ -1,0 +1,3 @@
+FileBasedKeyProviderTest
+../../nifi/nifi-commons/nifi-security-kms/src/test/java/org/apache/nifi/security/kms/FileBasedKeyProviderTest.java
+testGetKey

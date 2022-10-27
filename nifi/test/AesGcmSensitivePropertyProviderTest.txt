@@ -1,0 +1,9 @@
+AesGcmSensitivePropertyProviderTest
+../../nifi/nifi-commons/nifi-property-protection-cipher/src/test/java/org/apache/nifi/properties/AesGcmSensitivePropertyProviderTest.java
+testInvalidKeyLength
+testIsSupported
+testGetIdentifierKeyAesGcm128
+testGetIdentifierKeyAesGcm256
+testProtectUnprotectSuccess
+testProtectUnprotectDifferentKeyFailed
+testUnprotectMinLengthRequired

@@ -1,0 +1,8 @@
+StandardRepositoryKeyProviderFactoryTest
+../../nifi/nifi-commons/nifi-repository-encryption/src/test/java/org/apache/nifi/repository/encryption/configuration/kms/StandardRepositoryKeyProviderFactoryTest.java
+testGetKeyProviderPropertyNotConfiguredException
+testGetKeyProviderNotFound
+testGetKeyProviderContentKeyStoreKeyProvider
+testGetKeyProviderContentStaticKeyProvider
+testGetKeyProviderFlowFileStaticKeyProvider
+testGetKeyProviderProvenanceStaticKeyProvider

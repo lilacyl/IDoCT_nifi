@@ -1,0 +1,6 @@
+KeyProviderFactoryTest
+../../nifi/nifi-commons/nifi-security-kms/src/test/java/org/apache/nifi/security/kms/KeyProviderFactoryTest.java
+testGetUnsupportedKeyProvider
+testGetStaticKeyProvider
+testGetFileBasedKeyProvider
+testGetKeyStoreKeyProvider
