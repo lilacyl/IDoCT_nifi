@@ -18,7 +18,8 @@ def find_test(input_path):
                     if word[-2:] == ("()"):
                         test_names.append(word.replace("()", "\n"))
                         break
-    with open("test/" + test_names[0]+".txt", 'w') as output_file:
+                        
+    with open("test/" + test_names[0]+".txt", 'a') as output_file:
         output_file.writelines(test_names)
 
     print("Finished!" + "Total test number is " + str(len(test_names) - 2))
