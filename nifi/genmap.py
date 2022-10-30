@@ -46,9 +46,10 @@ def parse_and_run_test(test_path):
             cur_test_name = cur_test_file+"#"+line
             # run the test
             command = constants.CD_NIFI_PATH
-            command += constants.MVN_INSTALL_NIFI_COMMONS
-            # command += 'mvn -pl '+ pl_name +' test -Dtest="'+cur_test_name+'" DtestFailureIgnore=true'
-            command += 'mvn -pl nifi-commons/nifi-properties/ test -Dtest="'+cur_test_name+'"'
+            command += "mvn install -pl " + pl_name + " -am -DskipTest;"
+            # command += constants.MVN_INSTALL_NIFI_COMMONS
+            command += 'mvn -pl '+ pl_name +' test -Dtest="'+cur_test_name+'" DtestFailureIgnore=true'
+            # command += 'mvn -pl nifi-commons/nifi-properties/ test -Dtest="'+cur_test_name+'"'
             os.system(command)
 
             # get params
