@@ -1,0 +1,85 @@
+Before injection: 30 sec
+After injection: 666 sec
+[CTEST][GET-PARAM],nifi.cluster.manager.flow.retrieval.delay,5 sec
+[CTEST][GET-PARAM],nifi.flowfile.repository.checkpoint.interval,2 mins
+[CTEST][GET-PARAM],nifi.controller.service.configuration.file,./target/controller-services.xml
+[CTEST][GET-PARAM],nifi.security.keystoreType,
+[CTEST][GET-PARAM],nifi.flowfile.repository.partitions,1
+[CTEST][GET-PARAM],nifi.cluster.node.unicast.manager.protocol.port,
+[CTEST][GET-PARAM],nifi.remote.input.secure,true
+[CTEST][GET-PARAM],nifi.cluster.manager.authority.provider.port,
+[CTEST][GET-PARAM],nifi.security.truststorePasswd,
+[CTEST][GET-PARAM],nifi.web.https.port,
+[CTEST][GET-PARAM],nifi.cluster.manager.node.api.read.timeout,30 sec
+[CTEST][GET-PARAM],nifi.nar.working.directory,./target/work/nar/
+[CTEST][GET-PARAM],nifi.swap.out.period,5 sec
+[CTEST][GET-PARAM],nifi.cluster.manager.protocol.threads,10
+[CTEST][GET-PARAM],nifi.cluster.protocol.multicast.service.locator.attempts,3
+[CTEST][GET-PARAM],nifi.cluster.node.protocol.threads,2
+[CTEST][GET-PARAM],nifi.security.truststore,
+[CTEST][GET-PARAM],nifi.cluster.node.protocol.port,
+[CTEST][GET-PARAM],nifi.web.jetty.working.directory,./target/work/jetty
+[CTEST][GET-PARAM],nifi.provenance.repository.storage.directory,./target/provenance_repository
+[CTEST][GET-PARAM],nifi.ui.banner.text,UI Banner Text
+[CTEST][GET-PARAM],nifi.flow.configuration.archive.dir,./target/archive/
+[CTEST][GET-PARAM],nifi.flowservice.writedelay.interval,2 sec
+[CTEST][GET-PARAM],nifi.provenance.repository.max.storage.size,1 GB
+[CTEST][GET-PARAM],nifi.cluster.protocol.connection.handshake.timeout,45 sec
+[CTEST][GET-PARAM],nifi.web.http.host,
+[CTEST][GET-PARAM],nifi.swap.in.period,5 sec
+[CTEST][GET-PARAM],nifi.nar.library.directory,
+[CTEST][GET-PARAM],nifi.security.keystorePasswd,
+[CTEST][GET-PARAM],nifi.swap.out.threads,4
+[CTEST][GET-PARAM],nifi.cluster.protocol.use.multicast,false
+[CTEST][GET-PARAM],nifi.cluster.manager.protocol.port,
+[CTEST][GET-PARAM],nifi.administrative.yield.duration,30 sec
+[CTEST][GET-PARAM],nifi.reporting.task.configuration.file,./target/reporting-tasks.xml
+[CTEST][GET-PARAM],nifi.queue.swap.threshold,20000
+[CTEST][GET-PARAM],nifi.provenance.repository.max.storage.time,24 hours
+[CTEST][GET-PARAM],nifi.cluster.protocol.multicast.service.locator.attempts.delay,1 sec
+[CTEST][GET-PARAM],nifi.cluster.protocol.multicast.address,
+[CTEST][GET-PARAM],nifi.cluster.node.address,
+[CTEST][GET-PARAM],nifi.cluster.is.manager,false
+[CTEST][GET-PARAM],nifi.flowfile.repository.directory,./target/test-repo
+[CTEST][GET-PARAM],nifi.flowcontroller.graceful.shutdown.period,10 sec
+[CTEST][GET-PARAM],nifi.cluster.protocol.heartbeat.interval,5 sec
+[CTEST][GET-PARAM],nifi.cluster.manager.node.firewall.file,
+[CTEST][GET-PARAM],nifi.swap.in.threads,1
+[CTEST][GET-PARAM],nifi.cluster.protocol.multicast.service.broadcast.delay,500 ms
+[CTEST][GET-PARAM],nifi.cluster.manager.address,
+[CTEST][GET-PARAM],nifi.templates.directory,./target/templates
+[CTEST][GET-PARAM],nifi.remote.input.socket.port,9990
+[CTEST][GET-PARAM],nifi.ui.autorefresh.interval,666 sec
+[CTEST][GET-PARAM],nifi.cluster.manager.node.event.history.size,10
+[CTEST][GET-PARAM],nifi.cluster.protocol.multicast.port,
+[CTEST][GET-PARAM],nifi.swap.storage.directory,./target/test-repo/swap
+[CTEST][GET-PARAM],nifi.content.claim.max.appendable.size,10 MB
+[CTEST][GET-PARAM],nifi.web.war.directory,./target/lib
+[CTEST][GET-PARAM],nifi.sensitive.props.algorithm,PBEWITHMD5AND256BITAES-CBC-OPENSSL
+[CTEST][GET-PARAM],nifi.cluster.protocol.is.secure,false
+[CTEST][GET-PARAM],nifi.security.keystore,
+[CTEST][GET-PARAM],nifi.web.http.port,8080
+[CTEST][GET-PARAM],nifi.security.keyPasswd,
+[CTEST][GET-PARAM],nifi.cluster.manager.node.api.connection.timeout,30 sec
+[CTEST][GET-PARAM],nifi.content.claim.max.flow.files,100
+[CTEST][GET-PARAM],nifi.sensitive.props.key,key
+[CTEST][GET-PARAM],nifi.flow.configuration.file,./target/flow.xml.gz
+[CTEST][GET-PARAM],nifi.web.https.host,
+[CTEST][GET-PARAM],nifi.provenance.repository.rollover.size,100 MB
+[CTEST][GET-PARAM],nifi.cluster.manager.authority.provider.threads,10
+[CTEST][GET-PARAM],nifi.cluster.protocol.socket.timeout,30 sec
+[CTEST][GET-PARAM],nifi.cluster.node.unicast.manager.address,
+[CTEST][GET-PARAM],nifi.flowcontroller.autoResumeState,true
+[CTEST][GET-PARAM],nifi.provenance.repository.rollover.time,30 secs
+[CTEST][GET-PARAM],nifi.cluster.manager.safemode.duration,0 sec
+[CTEST][GET-PARAM],nifi.security.truststoreType,
+[CTEST][GET-PARAM],nifi.custom.nar.library.directory.alt,
+[CTEST][GET-PARAM],nifi.security.user.authorizer,
+[CTEST][GET-PARAM],nifi.cluster.manager.node.api.request.threads,10
+[CTEST][GET-PARAM],nifi.cluster.node.unicast.manager.authority.provider.port,
+[CTEST][GET-PARAM],nifi.database.directory,./target/database_repository
+[CTEST][GET-PARAM],nifi.h2.url.append,;LOCK_TIMEOUT=25000;WRITE_DELAY=0;AUTO_SERVER=FALSE
+[CTEST][GET-PARAM],nifi.cluster.is.node,false
+[CTEST][GET-PARAM],nifi.content.repository.directory.default,./target/content_repository
+Check3 injection: 666 sec
+[CTEST][GET-PARAM],nifi.nar.library.directory,./lib
