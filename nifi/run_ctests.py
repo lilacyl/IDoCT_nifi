@@ -1,8 +1,8 @@
-from click import argument
 from run_single_ctest import run_single_test
 import json
 from tqdm import tqdm
 import argparse
+import constants
 
 def reverse_map(tp_map):
     reversed_map = {}
@@ -35,9 +35,11 @@ def main(args):
             with open('../../nifi/nifi-commons/nifi-properties/src/test/resources/NiFiProperties/conf/ctest.properties', 'w') as f:
                 to_insert = '\n'.join(test_args)
                 f.write(to_insert)
-            for test in reversed_map[params[0]]:
-                print(test)
-                run_single_test(test)
+            command = constants.CD_NIFI_PATH
+            command += constants.MVN_INSTALL_NIFI_COMMONS
+            run_single_test(reversed_map[params[0]], command)
+            # for test in ]:
+            #     run_single_test(test)
 
 
 if __name__ == '__main__':
