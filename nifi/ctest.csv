@@ -1,0 +1,40 @@
+nifi.nar.library.directory,./target/resources/NiFiProperties/lib/
+nifi.nar.library.directory,
+nifi.ui.banner.text,UI Banner Text
+nifi.nar.library.directory.alt,./target/resources/NiFiProperties/lib2/
+nifi.cluster.node.protocol.port,
+nifi.cluster.node.protocol.port,11443
+nifi.cluster.node.protocol.port,8300
+nifi.web.max.content.size,"""size value"""
+nifi.zookeeper.client.secure,FALSE
+nifi.zookeeper.client.secure,TRUE
+nifi.security.user.oidc.additional.scopes,
+nifi.web.https.port,8443
+nifi.cluster.node.load.balance.port,6342
+nifi.web.http.port.forwarding,none
+nifi.listener.bootstrap.port,random ephemeral
+nifi.flow.configuration.file,./target/flow.xml.gz
+nifi.flow.configuration.archive.dir,./target/archive/
+nifi.flowcontroller.autoResumeState,TRUE
+nifi.flowcontroller.graceful.shutdown.period,10 sec
+nifi.flowservice.writedelay.interval,2 sec
+nifi.administrative.yield.duration,30 sec
+nifi.reporting.task.configuration.file,./target/reporting-tasks.xml
+nifi.controller.service.configuration.file,./target/controller-services.xml
+nifi.templates.directory,./target/templates
+nifi.ui.autorefresh.interval,30 sec
+nifi.nar.working.directory,./target/work/nar/
+nifi.database.directory,./target/database_repository
+nifi.h2.url.append,;LOCK_TIMEOUT=25000;WRITE_DELAY=0;AUTO_SERVER=FALSE
+nifi.flowfile.repository.directory,./target/test-repo
+nifi.flowfile.repository.partitions,1
+nifi.flowfile.repository.checkpoint.interval,2 mins
+nifi.queue.swap.threshold,20000
+nifi.swap.storage.directory,./target/test-repo/swap
+nifi.swap.in.period,5 sec
+nifi.swap.in.threads,1
+nifi.swap.out.period,5 sec
+nifi.swap.out.threads,4
+nifi.content.claim.max.appendable.size,10 MB
+nifi.content.claim.max.flow.files,100
+nifi.content.repository.directory.default,./target/content_repository
