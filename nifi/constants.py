@@ -2,6 +2,7 @@ PRAM_IDX = 1
 TEST_INFO_FOLDER = "test/"
 TEST_INFO_PATH = "test/NiFiPropertiesTest.txt"
 OUTPUT_PATH = "result/param_map.json"
+OUTPUT_FOLDER = "result/"
 
 NIFI_COMMONS_PATH = "../../nifi/nifi-commons/"
 ALL_TESTS_PATH = "all_test-path.txt"
