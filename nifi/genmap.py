@@ -12,15 +12,16 @@ res = {}
 
 def params_in_report(report_path):
     params = []
-    report = open(report_path, 'r')
-    Lines = report.readlines()
-    for line in Lines:
-        line = line.strip()
-        info = line.split(',')
-        try:
-            params.append(info[constants.PRAM_IDX])
-        except:
-            return None
+    if os.path.isfile(report_path):
+        report = open(report_path, 'r')
+        Lines = report.readlines()
+        for line in Lines:
+            line = line.strip()
+            info = line.split(',')
+            try:
+                params.append(info[constants.PRAM_IDX])
+            except:
+                return None
     return params
 
 
@@ -37,10 +38,10 @@ def parse_and_run_test(test_path):
         if i == 0:
             cur_test_file = line
         elif i == 1:
-            report_path = line
             folders = line.split('/')
             # hardcode the path of the module we want to build
             pl_name = folders[3]+'/'+folders[4]+'/'
+            report_path = "/".join(folders[:5]) + "/target/surefire-reports/org.apache.nifi.util."+cur_test_file+"-output.txt"
 
         else:
             cur_test_name = cur_test_file+"#"+line
