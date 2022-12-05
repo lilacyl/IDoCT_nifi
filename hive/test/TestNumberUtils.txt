@@ -1,0 +1,6 @@
+TestNumberUtils
+../../hive/common/src/test/org/apache/hadoop/hive/common/TestNumberUtils.java
+testMinLong
+testMaxLong
+testZeroLong
+testNegativePositiveLong

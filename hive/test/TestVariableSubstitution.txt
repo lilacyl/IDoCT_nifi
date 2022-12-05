@@ -1,0 +1,2 @@
+TestVariableSubstitution
+../../hive/common/src/test/org/apache/hadoop/hive/conf/TestVariableSubstitution.java

@@ -1,0 +1,3 @@
+TestShutdownHookManager
+../../hive/common/src/test/org/apache/hive/common/util/TestShutdownHookManager.java
+deleteOnExit

@@ -1,0 +1,2 @@
+TestHiveChar
+../../hive/common/src/test/org/apache/hadoop/hive/common/type/TestHiveChar.java

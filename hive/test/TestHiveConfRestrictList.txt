@@ -1,0 +1,6 @@
+TestHiveConfRestrictList
+../../hive/common/src/test/org/apache/hadoop/hive/conf/TestHiveConfRestrictList.java
+testRestriction
+testMultipleRestrictions
+testRestrictList
+testAppendRestriction

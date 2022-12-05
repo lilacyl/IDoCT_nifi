@@ -1,0 +1,2 @@
+TestHiveIntervalDayTime
+../../hive/common/src/test/org/apache/hadoop/hive/common/type/TestHiveIntervalDayTime.java

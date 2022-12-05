@@ -1,0 +1,10 @@
+TestFixedSizedObjectPool
+../../hive/common/src/test/org/apache/hive/common/util/TestFixedSizedObjectPool.java
+testFullEmpty
+testMTT1
+testMTT8
+testMTT4096
+testMTT4096_1
+testMTT20000
+testMTT4096_10
+testClearImp

@@ -1,0 +1,10 @@
+TestHiveConf
+../../hive/common/src/test/org/apache/hadoop/hive/conf/TestHiveConf.java
+testHiveSitePath
+testConfProperties
+testColumnNameMapping
+testUnitFor
+testToSizeBytes
+testHiddenConfig
+testEncodingDecoding
+testAdditionalConfigFiles

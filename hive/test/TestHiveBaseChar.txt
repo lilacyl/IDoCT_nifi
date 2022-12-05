@@ -1,0 +1,4 @@
+TestHiveBaseChar
+../../hive/common/src/test/org/apache/hadoop/hive/common/type/TestHiveBaseChar.java
+testStringLength
+testGetPaddedValue

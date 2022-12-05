@@ -1,0 +1,2 @@
+TestHiveIntervalYearMonth
+../../hive/common/src/test/org/apache/hadoop/hive/common/type/TestHiveIntervalYearMonth.java

@@ -1,0 +1,3 @@
+TestOp
+../../hive/common/src/test/org/apache/hadoop/hive/common/jsonexplain/TestOp.java
+testInlineJoinOpJsonHandling

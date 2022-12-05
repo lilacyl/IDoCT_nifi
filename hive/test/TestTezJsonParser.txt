@@ -1,0 +1,5 @@
+TestTezJsonParser
+../../hive/common/src/test/org/apache/hadoop/hive/common/TestTezJsonParser.java
+testQuery27TestTezJsonParser
+../../hive/common/src/test/org/apache/hadoop/hive/common/jsonexplain/tez/TestTezJsonParser.java
+testExtractStagesAndPlans

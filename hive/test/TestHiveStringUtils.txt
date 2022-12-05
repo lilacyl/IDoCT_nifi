@@ -1,0 +1,5 @@
+TestHiveStringUtils
+../../hive/common/src/test/org/apache/hive/common/util/TestHiveStringUtils.java
+testSplitAndUnEscape
+testStripComments
+testLinesEndingWithComments

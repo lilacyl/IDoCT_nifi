@@ -1,0 +1,10 @@
+TestTimestampTZ
+../../hive/common/src/test/org/apache/hadoop/hive/common/type/TestTimestampTZ.java
+testConvertToUTC
+testComparison
+testDST
+testFromToInstant
+testVariations
+testInvalidStrings
+testConvertFromTimestamp
+testConvertFromTimestamp2

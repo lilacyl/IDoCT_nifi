@@ -1,0 +1,7 @@
+TestVertex
+../../hive/common/src/test/org/apache/hadoop/hive/common/jsonexplain/TestVertex.java
+testExtractOpTree
+testExtractOpNonJsonChildrenShouldThrow
+testExtractOpNoChildrenOperatorId
+testExtractOpOneChild
+testExtractOpMultipleChildren

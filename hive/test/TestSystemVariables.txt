@@ -1,0 +1,7 @@
+TestSystemVariables
+../../hive/common/src/test/org/apache/hadoop/hive/conf/TestSystemVariables.java
+test_RelativeJavaIoTmpDir_CoercedTo_AbsolutePath
+test_AbsoluteJavaIoTmpDir_NotChanged
+test_RelativePathWithNoCoercion_NotChanged
+test_EmptyJavaIoTmpDir_NotChanged
+test_SubstituteLongSelfReference

@@ -1,0 +1,11 @@
+TestStage
+../../hive/common/src/test/org/apache/hadoop/hive/common/jsonexplain/TestStage.java
+testAddDependencyNonRoot
+testAddDependencyRoot
+testExtractVertexNonTez
+testExtractVertexTezNoEdges
+testExtractVertexTezWithOneEdge
+testExtractVertexTezWithOneToManyEdge
+testExtractOpEmptyObject
+testExtractOpSimple
+testExtract

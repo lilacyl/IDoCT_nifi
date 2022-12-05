@@ -1,0 +1,5 @@
+TestHiveConfUtil
+../../hive/common/src/test/org/apache/hadoop/hive/conf/TestHiveConfUtil.java
+testHideNonStringVar
+testHideStringVar
+testHideMultipleVars

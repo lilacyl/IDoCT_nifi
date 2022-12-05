@@ -1,0 +1,16 @@
+TestFileUtils
+../../hive/common/src/test/org/apache/hadoop/hive/common/TestFileUtils.java
+isPathWithinSubtree_samePrefix
+isPathWithinSubtree_rootIsInside
+isPathWithinSubtree_descendantInside
+isPathWithinSubtree_relativeWalk
+getParentRegardlessOfScheme_badCases
+getParentRegardlessOfScheme_priority
+getParentRegardlessOfScheme_root
+testGetJarFilesByPath
+testRelativePathToAbsolutePath
+testIsPathWithinSubtree
+testCopyWithDistcp
+testCopyWithDistCpAs
+testMakeRelative
+testListStatusIterator

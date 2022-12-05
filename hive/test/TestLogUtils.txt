@@ -1,0 +1,3 @@
+TestLogUtils
+../../hive/common/src/test/org/apache/hadoop/hive/common/TestLogUtils.java
+testMaskIfPassword

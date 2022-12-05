@@ -1,0 +1,5 @@
+TestBlobStorageUtils
+../../hive/common/src/test/org/apache/hadoop/hive/common/TestBlobStorageUtils.java
+testValidAndInvalidPaths
+testValidAndInvalidFileSystems
+testValidAndInvalidSchemes

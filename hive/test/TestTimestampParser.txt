@@ -1,0 +1,14 @@
+TestTimestampParser
+../../hive/common/src/test/org/apache/hive/common/util/TestTimestampParser.java
+testDefault
+testDefaultInvalid
+testPattern1
+testPatternInvalid1
+testPatternInvalid2
+testMillisParser
+testMillisParserInvalid1
+testMillisParserInvalid2
+testPatternShort
+testPatternTimeZone
+testPatternISO8601
+testPatternRFC1123
