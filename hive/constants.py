@@ -10,3 +10,7 @@ INDIVIDUAL_TEST_INFO_FOLDER = "test/"
 FORMATTED_TEST_METHOD_LIST_PATH = "test_method_list.json"
 CD_HIVE_COMMON_PATH = "cd ../../hive/common;"
 MVN_INSTALL_HIVE_COMMONS = "mvn clean install -DskipTests;"
+
+
+HIVE_CONF_PARAM_IN_JAVA_PATH = "hive_confvarclass.txt"
+OUTPUT_CONF_PARAM_PATH = "conf_params.txt"
